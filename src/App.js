@@ -1,5 +1,5 @@
 import "./App.css";
-import profileImg from "./images/profile.jpg"; // Internal image
+import image from "./images/profile.jpg"; 
 
 function App() {
   // Variables
@@ -27,21 +27,20 @@ function App() {
       
       <div style={cardStyle}>
         
-        {/* Name */}
         <h3 style={nameStyle}>{personName}</h3>
 
-        {/* Description */}
+       
         <p>{description}</p>
 
-        {/* Internal Image */}
+        
         <img
-          src={profileImg}
+          src={image}
           alt="Internal Profile"
           className="img-fluid rounded mb-3"
           style={{ width: "150px" }}
         />
 
-        {/* External Image */}
+        
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmLlz4kiZ23iny0wdtSPKQSpK-tpZfuM2QAQ&s"
           alt="External Profile"
